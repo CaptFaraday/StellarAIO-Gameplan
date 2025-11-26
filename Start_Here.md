@@ -11,8 +11,9 @@ Welcome to StellarAIO! This comprehensive guide will walk you through everything
 3. [Understanding Proxies](#understanding-proxies)
 4. [Types of Proxies](#types-of-proxies)
 5. [Stella Proxies: Our Recommended Solution](#stella-proxies-our-recommended-solution)
-6. [Getting Started](#getting-started)
-7. [Frequently Asked Questions](#frequently-asked-questions)
+6. [Stellar and Stella: Which Proxies to Use](#stellar-and-stella-which-proxies-to-use)
+7. [Getting Started](#getting-started)
+8. [Frequently Asked Questions](#frequently-asked-questions)
 
 ---
 
@@ -361,6 +362,138 @@ For optimal performance, Stella Proxies also offers virtual servers with near-ze
 | Elite | 16 | 24GB | 50GB SSD | 40GBPS | $55/month |
 
 *Virtual servers position your bot closer to retail servers, reducing latency and improving success rates.*
+
+---
+
+## Stellar and Stella: Which Proxies to Use
+
+StellarAIO and Stella Proxies are designed to work seamlessly together. This section provides specific recommendations for matching the right Stella proxy products to your botting targets.
+
+### Quick Reference Guide
+
+| Target Site | Primary Proxy | Secondary Proxy | Notes |
+|-------------|---------------|-----------------|-------|
+| **Pokémon Center** | Residential | ISP | 80% Resi / 20% ISP split |
+| **Shopify (Sneakers)** | Sneaker Proxies | Residential | Sprint IPs optimized for speed |
+| **Footsites** | Sneaker Proxies | ISP | Not guaranteed, test before drops |
+| **Ticketmaster/AXS** | Ticket Proxies | - | AT&T Residential IPs required |
+| **Target/Walmart/Amazon** | ISP | Residential | Stable sessions preferred |
+| **Nike SNKRS** | Residential | ISP | High anti-bot protection |
+| **Adidas Confirmed** | Residential | ISP | High anti-bot protection |
+
+### Pokémon Center: The Stella Approach
+
+Based on [Stella's official Pokémon Center guide](https://guides.stellaraio.com/stellar/retailers/pokemon-center), here's the recommended proxy setup:
+
+**Proxy Distribution:**
+- **Residential Proxies (80%)**: Use for the majority of your tasks. Stella's residential pool offers 100M+ IPs across 150+ countries, making detection extremely difficult.
+- **ISP Proxies (20%)**: Use for a smaller portion of tasks. These provide consistent, fast connections with unlimited bandwidth.
+
+**Why This Split Works:**
+- Residential proxies appear as legitimate home users, evading Pokemon Center's anti-bot measures
+- ISP proxies provide speed and stability for backup coverage
+- Having multiple proxy groups lets you switch if one type gets flagged
+
+**Setup Tips:**
+- Run Pokémon Center tasks on your **local PC**, not a server
+- Create at least two captcha harvesters (no YouTube/Gmail sign-in required)
+- Don't use proxies in captcha harvester fields unless on a server
+- Use **Guest Fast Mode** for 80% of your tasks
+
+**Estimated Costs (Pokémon Center):**
+| Proxy Type | Quantity | Monthly Cost |
+|------------|----------|--------------|
+| Residential | 5 GB | $40 |
+| ISP Proxies | 25 IPs | $33.50 |
+| **Total** | - | **~$73.50/month** |
+
+### Sneaker Releases (Shopify, Footsites)
+
+For sneaker drops, speed is everything. Stella's **Sneaker Proxies** are purpose-built for this:
+
+**Recommended Setup:**
+- **Primary**: Sneaker Proxies (Sprint IPs) - 10 GBPS speeds with unlimited bandwidth
+- **Backup**: Residential Proxies - For sites with aggressive detection
+
+**Why Sneaker Proxies:**
+- Optimized specifically for sneaker site infrastructure
+- Real ISP IPs (Sprint network) with datacenter speeds
+- Unlimited bandwidth means no mid-drop throttling
+- Blazing fast for time-sensitive checkouts
+
+**Pricing:**
+| Pack Size | Monthly Cost | Cost per IP |
+|-----------|--------------|-------------|
+| 25 IPs | $36.95 | $1.48 |
+| 50 IPs | $71.95 | $1.44 |
+| 100 IPs | $139.95 | $1.40 |
+
+### Ticket Purchasing (Ticketmaster, AXS)
+
+Event tickets require specialized proxies due to aggressive bot protection:
+
+**Recommended Setup:**
+- **Required**: Ticket ISP Proxies (AT&T Residential IPs)
+- These are specifically designed for ticket site infrastructure
+
+**Why AT&T Residential:**
+- Ticket sites heavily scrutinize IP reputation
+- AT&T residential ranges have high trust scores
+- Optimized routing to ticket platform servers
+- 10 GBPS speeds for instant checkout
+
+**Pricing:**
+| Pack Size | Monthly Cost | Cost per IP |
+|-----------|--------------|-------------|
+| 25 IPs | $45.00 | $1.80 |
+| 50 IPs | $85.00 | $1.70 |
+| 100 IPs | $160.00 | $1.60 |
+
+### General Retail (Target, Walmart, Amazon, Best Buy)
+
+For major retailers, ISP proxies offer the best balance:
+
+**Recommended Setup:**
+- **Primary**: ISP Proxies - Stable sessions, unlimited bandwidth
+- **Secondary**: Residential - When ISPs get flagged
+
+**Why ISP Proxies:**
+- Consistent IP for session-based sites
+- Appear residential while maintaining speed
+- Cost-effective at $1.33-$1.35 per IP
+- Unlimited bandwidth for heavy monitoring
+
+### Proxy Quantity Guidelines
+
+**Rule of Thumb**: 1 proxy per task, but have 2-3x your task count available.
+
+| Release Intensity | Tasks | Recommended Proxies |
+|-------------------|-------|---------------------|
+| Casual | 10-25 | 25-50 proxies |
+| Moderate | 25-50 | 75-100 proxies |
+| Heavy | 50-100 | 150-200 proxies |
+| Competitive | 100+ | 300+ proxies |
+
+### Stella Proxies Product Summary
+
+| Product | Starting Price | Best For |
+|---------|----------------|----------|
+| **Residential** | $10/GB | Pokémon Center, Nike, Adidas, high-security sites |
+| **ISP Proxies** | $1.35/proxy | Account farming, consistent sessions, general retail |
+| **Sneaker Proxies** | $1.35/proxy | Shopify drops, Footsites, speed-critical releases |
+| **Ticket Proxies** | $1.80/proxy | Ticketmaster, AXS, event ticketing |
+
+### Pro Tips
+
+1. **Diversify Your Proxy Groups**: Don't rely on a single proxy type. Have ISPs, residential, and sneaker proxies ready.
+
+2. **Test Before Drops**: Always test your proxies on the target site before a major release.
+
+3. **Rotate Between Releases**: Don't use the same proxies for every drop. Let flagged IPs cool down.
+
+4. **Match Proxy to Site**: Using ticket proxies on Shopify wastes money; using datacenter proxies on Ticketmaster wastes time.
+
+5. **Start with the Free Trial**: Stella Proxies offers a no-credit-card trial. Test before committing.
 
 ---
 
